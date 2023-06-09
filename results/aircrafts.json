@@ -1,0 +1,104 @@
+{
+	"Boeing737GA": {
+		"model": "Boeing 737",
+		"seatLayout": "3-3",
+		"seatPitch": "31",
+		"seatType": "ABOVE_AVERAGE_LEGROOM"
+	},
+	"Boeing737JT": {
+		"model": "Boeing 737",
+		"seatLayout": "3-3",
+		"seatPitch": "29",
+		"seatType": "STANDARD_LEGROOM"
+	},
+	"AirbusA320ID": {
+		"model": "Airbus A320",
+		"seatLayout": "3-3",
+		"seatPitch": "32",
+		"seatType": "ABOVE_AVERAGE_LEGROOM"
+	},
+	"Boeing737ID": {
+		"model": "Boeing 737",
+		"seatLayout": "3-3",
+		"seatPitch": "32",
+		"seatType": "ABOVE_AVERAGE_LEGROOM"
+	},
+	"Boeing737SJ": {
+		"model": "Boeing 737",
+		"seatLayout": "3-3",
+		"seatPitch": "29",
+		"seatType": "STANDARD_LEGROOM"
+	},
+	"AirbusA320QG": {
+		"model": "Airbus A320",
+		"seatLayout": "3-3",
+		"seatPitch": "29",
+		"seatType": "STANDARD_LEGROOM"
+	},
+	"Boeing737NM": {
+		"model": "Boeing 737",
+		"seatLayout": "3-3",
+		"seatPitch": "29",
+		"seatType": "STANDARD_LEGROOM"
+	},
+	"AirbusA3208B": {
+		"model": "Airbus A320",
+		"seatLayout": "3-3",
+		"seatPitch": "32",
+		"seatType": "STANDARD_LEGROOM"
+	},
+	"ARJ218B": {
+		"model": "ARJ21",
+		"seatLayout": "2-3",
+		"seatPitch": "31",
+		"seatType": "STANDARD_LEGROOM"
+	},
+	"Boeing737-800ID": {
+		"model": "Boeing 737-800",
+		"seatLayout": "3-3",
+		"seatPitch": "32",
+		"seatType": "ABOVE_AVERAGE_LEGROOM"
+	},
+	"BombardierCR1000GA": {
+		"model": "Bombardier CR1000",
+		"seatLayout": "2-2",
+		"seatPitch": "31",
+		"seatType": "ABOVE_AVERAGE_LEGROOM"
+	},
+	"ATR-72QG": {
+		"model": "ATR-72",
+		"seatLayout": "2-2",
+		"seatPitch": "28",
+		"seatType": "STANDARD_LEGROOM"
+	},
+	"AirbusA330GA": {
+		"model": "Airbus A330",
+		"seatLayout": "2-4-2",
+		"seatPitch": "32",
+		"seatType": "ABOVE_AVERAGE_LEGROOM"
+	},
+	"AirbusA332GA": {
+		"model": "Airbus A332",
+		"seatLayout": "3-3",
+		"seatPitch": "31",
+		"seatType": "ABOVE_AVERAGE_LEGROOM"
+	},
+	"Boeing737IL": {
+		"model": "Boeing 737",
+		"seatLayout": "3-3",
+		"seatPitch": "30",
+		"seatType": "STANDARD_LEGROOM"
+	},
+	"Boeing737-800GA": {
+		"model": "Boeing 737-800",
+		"seatLayout": "3-3",
+		"seatPitch": "31",
+		"seatType": "STANDARD_LEGROOM"
+	},
+	"CanadairRegionalJet1000GA": {
+		"model": "Canadair Regional Jet 1000",
+		"seatLayout": "2-2",
+		"seatPitch": "31",
+		"seatType": "ABOVE_AVERAGE_LEGROOM"
+	}
+}
