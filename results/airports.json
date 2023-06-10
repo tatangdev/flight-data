@@ -370,5 +370,17 @@
 		"localName": "Syukuran Aminuddin Amir/Bubung",
 		"city": "Luwuk",
 		"country": "Indonesia"
+	},
+	"FKQ": {
+		"airportId": "FKQ",
+		"localName": "Torea",
+		"city": "Fak Fak",
+		"country": "Indonesia"
+	},
+	"PEN": {
+		"airportId": "PEN",
+		"localName": "Penang Intl",
+		"city": "Penang",
+		"country": "Malaysia"
 	}
 }
