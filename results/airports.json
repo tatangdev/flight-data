@@ -5,6 +5,12 @@
 		"city": "Surabaya",
 		"country": "Indonesia"
 	},
+	"PKN": {
+		"airportId": "PKN",
+		"localName": "Iskandar",
+		"city": "Pangkalan Bun",
+		"country": "Indonesia"
+	},
 	"CGK": {
 		"airportId": "CGK",
 		"localName": "Soekarno Hatta International Airport",
@@ -15,24 +21,6 @@
 		"airportId": "DPS",
 		"localName": "Ngurah Rai International Airport",
 		"city": "Bali / Denpasar",
-		"country": "Indonesia"
-	},
-	"YIA": {
-		"airportId": "YIA",
-		"localName": "Yogyakarta International Airport",
-		"city": "Yogyakarta",
-		"country": "Indonesia"
-	},
-	"LBJ": {
-		"airportId": "LBJ",
-		"localName": "Komodo",
-		"city": "Labuan Bajo",
-		"country": "Indonesia"
-	},
-	"PKN": {
-		"airportId": "PKN",
-		"localName": "Iskandar",
-		"city": "Pangkalan Bun",
 		"country": "Indonesia"
 	},
 	"LOP": {
@@ -65,22 +53,16 @@
 		"city": "Bangka / Pangkal Pinang",
 		"country": "Indonesia"
 	},
-	"SRG": {
-		"airportId": "SRG",
-		"localName": "Achmad Yani",
-		"city": "Semarang",
-		"country": "Indonesia"
-	},
 	"PNK": {
 		"airportId": "PNK",
 		"localName": "Supadio",
 		"city": "Pontianak",
 		"country": "Indonesia"
 	},
-	"PKU": {
-		"airportId": "PKU",
-		"localName": "Sultan Syarif Kasim II",
-		"city": "Pekanbaru",
+	"PDG": {
+		"airportId": "PDG",
+		"localName": "Minangkabau Intl",
+		"city": "Padang",
 		"country": "Indonesia"
 	},
 	"BDJ": {
@@ -107,10 +89,10 @@
 		"city": "Belitung / Tanjung Pandan",
 		"country": "Indonesia"
 	},
-	"AMQ": {
-		"airportId": "AMQ",
-		"localName": "Pattimura Airport",
-		"city": "Ambon",
+	"MLG": {
+		"airportId": "MLG",
+		"localName": "Abdul Rachman Saleh",
+		"city": "Malang",
 		"country": "Indonesia"
 	},
 	"BTJ": {
@@ -119,22 +101,10 @@
 		"city": "Banda Aceh",
 		"country": "Indonesia"
 	},
-	"PKY": {
-		"airportId": "PKY",
-		"localName": "Tjilik Riwut",
-		"city": "Palangkaraya",
-		"country": "Indonesia"
-	},
 	"BPN": {
 		"airportId": "BPN",
 		"localName": "Sepinggan",
 		"city": "Balikpapan",
-		"country": "Indonesia"
-	},
-	"HLP": {
-		"airportId": "HLP",
-		"localName": "Halim Perdanakusuma International Airport",
-		"city": "Jakarta",
 		"country": "Indonesia"
 	},
 	"JOG": {
@@ -149,34 +119,28 @@
 		"city": "Bandung",
 		"country": "Indonesia"
 	},
-	"KOE": {
-		"airportId": "KOE",
-		"localName": "El Tari",
-		"city": "Kupang",
+	"YIA": {
+		"airportId": "YIA",
+		"localName": "Yogyakarta International Airport",
+		"city": "Yogyakarta",
 		"country": "Indonesia"
 	},
-	"AAP": {
-		"airportId": "AAP",
-		"localName": "APT Pranoto Airport",
-		"city": "Samarinda",
+	"HLP": {
+		"airportId": "HLP",
+		"localName": "Halim Perdanakusuma International Airport",
+		"city": "Jakarta",
 		"country": "Indonesia"
 	},
-	"KBU": {
-		"airportId": "KBU",
-		"localName": "Gusti Sjamsir Alam",
-		"city": "Kotabaru",
+	"SMQ": {
+		"airportId": "SMQ",
+		"localName": "H. Asan Airport",
+		"city": "Sampit",
 		"country": "Indonesia"
 	},
 	"KDI": {
 		"airportId": "KDI",
 		"localName": "Haluoleo",
 		"city": "Kendari",
-		"country": "Indonesia"
-	},
-	"SOQ": {
-		"airportId": "SOQ",
-		"localName": "Domine Eduard Osok",
-		"city": "Sorong",
 		"country": "Indonesia"
 	},
 	"PLW": {
@@ -203,64 +167,28 @@
 		"city": "Jayapura",
 		"country": "Indonesia"
 	},
-	"MKW": {
-		"airportId": "MKW",
-		"localName": "Rendani",
-		"city": "Manokwari",
+	"PKU": {
+		"airportId": "PKU",
+		"localName": "Sultan Syarif Kasim II",
+		"city": "Pekanbaru",
 		"country": "Indonesia"
 	},
-	"TIM": {
-		"airportId": "TIM",
-		"localName": "Mozes Kilangin",
-		"city": "Timika",
-		"country": "Indonesia"
-	},
-	"BUW": {
-		"airportId": "BUW",
-		"localName": "Betoambari",
-		"city": "Bau-Bau, Buton",
-		"country": "Indonesia"
-	},
-	"GTO": {
-		"airportId": "GTO",
-		"localName": "Jalaluddin",
-		"city": "Gorontalo",
-		"country": "Indonesia"
-	},
-	"KUL": {
-		"airportId": "KUL",
-		"localName": "Kuala Lumpur International Airport",
-		"city": "Kuala Lumpur",
-		"country": "Malaysia"
-	},
-	"SIN": {
-		"airportId": "SIN",
-		"localName": "Changi Intl",
-		"city": "Singapore",
-		"country": "Singapore"
-	},
-	"GNS": {
-		"airportId": "GNS",
-		"localName": "Binaka",
-		"city": "Nias/Gunung Sitoli",
-		"country": "Indonesia"
-	},
-	"PDG": {
-		"airportId": "PDG",
-		"localName": "Minangkabau Intl",
-		"city": "Padang",
-		"country": "Indonesia"
-	},
-	"KTG": {
-		"airportId": "KTG",
-		"localName": "Rahadi Usman",
-		"city": "Ketapang",
+	"SRG": {
+		"airportId": "SRG",
+		"localName": "Achmad Yani",
+		"city": "Semarang",
 		"country": "Indonesia"
 	},
 	"BMU": {
 		"airportId": "BMU",
 		"localName": "Muhammad Salahuddin",
 		"city": "Bima",
+		"country": "Indonesia"
+	},
+	"SOQ": {
+		"airportId": "SOQ",
+		"localName": "Domine Eduard Osok",
+		"city": "Sorong",
 		"country": "Indonesia"
 	},
 	"TTE": {
@@ -281,10 +209,46 @@
 		"city": "Solo",
 		"country": "Indonesia"
 	},
+	"AMQ": {
+		"airportId": "AMQ",
+		"localName": "Pattimura Airport",
+		"city": "Ambon",
+		"country": "Indonesia"
+	},
+	"GTO": {
+		"airportId": "GTO",
+		"localName": "Jalaluddin",
+		"city": "Gorontalo",
+		"country": "Indonesia"
+	},
+	"LBJ": {
+		"airportId": "LBJ",
+		"localName": "Komodo",
+		"city": "Labuan Bajo",
+		"country": "Indonesia"
+	},
+	"KOE": {
+		"airportId": "KOE",
+		"localName": "El Tari",
+		"city": "Kupang",
+		"country": "Indonesia"
+	},
+	"AAP": {
+		"airportId": "AAP",
+		"localName": "APT Pranoto Airport",
+		"city": "Samarinda",
+		"country": "Indonesia"
+	},
 	"MKQ": {
 		"airportId": "MKQ",
 		"localName": "Mopah",
 		"city": "Merauke",
+		"country": "Indonesia"
+	},
+	"MKW": {
+		"airportId": "MKW",
+		"localName": "Rendani",
+		"city": "Manokwari",
 		"country": "Indonesia"
 	},
 	"TMH": {
@@ -293,10 +257,22 @@
 		"city": "Tanahmerah",
 		"country": "Indonesia"
 	},
-	"WMX": {
-		"airportId": "WMX",
-		"localName": "Wamena",
-		"city": "Wamena",
+	"TIM": {
+		"airportId": "TIM",
+		"localName": "Mozes Kilangin",
+		"city": "Timika",
+		"country": "Indonesia"
+	},
+	"GNS": {
+		"airportId": "GNS",
+		"localName": "Binaka",
+		"city": "Nias/Gunung Sitoli",
+		"country": "Indonesia"
+	},
+	"KTG": {
+		"airportId": "KTG",
+		"localName": "Rahadi Usman",
+		"city": "Ketapang",
 		"country": "Indonesia"
 	},
 	"ENE": {
@@ -311,22 +287,10 @@
 		"city": "Bajawa",
 		"country": "Indonesia"
 	},
-	"DJB": {
-		"airportId": "DJB",
-		"localName": "Sultan Thaha",
-		"city": "Jambi",
-		"country": "Indonesia"
-	},
-	"MLG": {
-		"airportId": "MLG",
-		"localName": "Abdul Rachman Saleh",
-		"city": "Malang",
-		"country": "Indonesia"
-	},
-	"BKS": {
-		"airportId": "BKS",
-		"localName": "Fatmawati Soekarno",
-		"city": "Bengkulu",
+	"PKY": {
+		"airportId": "PKY",
+		"localName": "Tjilik Riwut",
+		"city": "Palangkaraya",
 		"country": "Indonesia"
 	},
 	"BEJ": {
@@ -335,10 +299,10 @@
 		"city": "Berau",
 		"country": "Indonesia"
 	},
-	"NBX": {
-		"airportId": "NBX",
-		"localName": "Nabire",
-		"city": "Nabire",
+	"BKS": {
+		"airportId": "BKS",
+		"localName": "Fatmawati Soekarno",
+		"city": "Bengkulu",
 		"country": "Indonesia"
 	},
 	"TNJ": {
@@ -347,10 +311,22 @@
 		"city": "Bintan / Tanjung Pinang",
 		"country": "Indonesia"
 	},
-	"SMQ": {
-		"airportId": "SMQ",
-		"localName": "H. Asan Airport",
-		"city": "Sampit",
+	"KBU": {
+		"airportId": "KBU",
+		"localName": "Gusti Sjamsir Alam",
+		"city": "Kotabaru",
+		"country": "Indonesia"
+	},
+	"BUW": {
+		"airportId": "BUW",
+		"localName": "Betoambari",
+		"city": "Bau-Bau, Buton",
+		"country": "Indonesia"
+	},
+	"WMX": {
+		"airportId": "WMX",
+		"localName": "Wamena",
+		"city": "Wamena",
 		"country": "Indonesia"
 	},
 	"MOF": {
@@ -359,22 +335,40 @@
 		"city": "Maumere",
 		"country": "Indonesia"
 	},
+	"DJB": {
+		"airportId": "DJB",
+		"localName": "Sultan Thaha",
+		"city": "Jambi",
+		"country": "Indonesia"
+	},
+	"NBX": {
+		"airportId": "NBX",
+		"localName": "Nabire",
+		"city": "Nabire",
+		"country": "Indonesia"
+	},
 	"TMC": {
 		"airportId": "TMC",
 		"localName": "Tambolaka Airport",
 		"city": "Waikabubak",
 		"country": "Indonesia"
 	},
-	"PEN": {
-		"airportId": "PEN",
-		"localName": "Penang Intl",
-		"city": "Penang",
+	"KUL": {
+		"airportId": "KUL",
+		"localName": "Kuala Lumpur International Airport",
+		"city": "Kuala Lumpur",
 		"country": "Malaysia"
 	},
-	"FKQ": {
-		"airportId": "FKQ",
-		"localName": "Torea",
-		"city": "Fak Fak",
+	"SIN": {
+		"airportId": "SIN",
+		"localName": "Changi Intl",
+		"city": "Singapore",
+		"country": "Singapore"
+	},
+	"LUW": {
+		"airportId": "LUW",
+		"localName": "Syukuran Aminuddin Amir/Bubung",
+		"city": "Luwuk",
 		"country": "Indonesia"
 	}
 }
