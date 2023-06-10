@@ -137,7 +137,7 @@
 				"model": "Boeing 737-800",
 				"seatLayout": "3-3",
 				"seatPitch": "31",
-				"seatType": "ABOVE_AVERAGE_LEGROOM"
+				"seatType": "STANDARD_LEGROOM"
 			},
 			"CanadairRegionalJet1000-2-2-31": {
 				"id": "CanadairRegionalJet1000-2-2-31",
