@@ -122,7 +122,7 @@
 				"model": "Boeing 737-800",
 				"seatLayout": "3-3",
 				"seatPitch": "31",
-				"seatType": "STANDARD_LEGROOM"
+				"seatType": "ABOVE_AVERAGE_LEGROOM"
 			},
 			"AirbusA330-2-4-2-32": {
 				"id": "AirbusA330-2-4-2-32",
