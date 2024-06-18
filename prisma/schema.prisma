@@ -1,0 +1,71 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Airport {
+  id       Int    @id @default(autoincrement())
+  name     String
+  iata     String
+  city     String
+  country  String
+  timezone String?
+
+  @@map("airports")
+}
+
+model Airline {
+  id         Int    @id @default(autoincrement())
+  name       String
+  short_name String
+  iata       String
+  icon_url   String
+
+  @@map("airlines")
+}
+
+model Airplane {
+  id           Int    @id @default(autoincrement())
+  model        String
+  code         String
+  seat_layout  String
+  seat_pitch   String
+  seat_type    String
+  airline_code String
+
+  @@map("airplanes")
+}
+
+model Flight {
+  id                      Int     @id @default(autoincrement())
+  departure_airport       String?
+  arrival_airport         String?
+  departure_terminal_name String?
+  arrival_terminal_name   String?
+  flight_number           String?
+  airline_code            String?
+  airplane_code           String?
+  free_baggage            Int?
+  cabin_baggage           Int?
+  departure_date          String?
+  arrival_date            String?
+  departure_time          String?
+  arrival_time            String?
+  departure_timestamp     Int?
+  arrival_timestamp       Int?
+  duration_minute         Int?
+  class                   String?
+  price                   Int?
+
+  @@map("flights")
+}

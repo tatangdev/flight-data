@@ -1,0 +1,429 @@
+[
+  {
+    "name": "Yogyakarta International Airport",
+    "iata": "YIA",
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Juanda",
+    "iata": "SUB",
+    "city": "Surabaya",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Soekarno Hatta International Airport",
+    "iata": "CGK",
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Ngurah Rai International Airport",
+    "iata": "DPS",
+    "city": "Bali / Denpasar",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Lombok Praya International Airport",
+    "iata": "LOP",
+    "city": "Lombok",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Sentani",
+    "iata": "DJJ",
+    "city": "Jayapura",
+    "country": "Indonesia",
+    "timezone": "Asia/Jayapura"
+  },
+  {
+    "name": "Hasanuddin",
+    "iata": "UPG",
+    "city": "Makassar",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Hang Nadim",
+    "iata": "BTH",
+    "city": "Batam",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Kualanamu International Airport",
+    "iata": "KNO",
+    "city": "Medan",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Sultan Mahmud Badaruddin II",
+    "iata": "PLM",
+    "city": "Palembang",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Depati Amir",
+    "iata": "PGK",
+    "city": "Bangka / Pangkal Pinang",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Achmad Yani",
+    "iata": "SRG",
+    "city": "Semarang",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Supadio",
+    "iata": "PNK",
+    "city": "Pontianak",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Minangkabau Intl",
+    "iata": "PDG",
+    "city": "Padang",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Syamsudin Noor",
+    "iata": "BDJ",
+    "city": "Banjarmasin",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Sam Ratulangi",
+    "iata": "MDC",
+    "city": "Manado",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Adi Soemarmo",
+    "iata": "SOC",
+    "city": "Solo",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Sultan Thaha",
+    "iata": "DJB",
+    "city": "Jambi",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Abdul Rachman Saleh",
+    "iata": "MLG",
+    "city": "Malang",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Sultan Iskandarmuda",
+    "iata": "BTJ",
+    "city": "Banda Aceh",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "H.A.S Hanandjoeddin Airport",
+    "iata": "TJQ",
+    "city": "Belitung / Tanjung Pandan",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Tjilik Riwut",
+    "iata": "PKY",
+    "city": "Palangkaraya",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Sepinggan",
+    "iata": "BPN",
+    "city": "Balikpapan",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Halim Perdanakusuma International Airport",
+    "iata": "HLP",
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Adi Sutjipto",
+    "iata": "JOG",
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Husein Sastranegara",
+    "iata": "BDO",
+    "city": "Bandung",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "El Tari",
+    "iata": "KOE",
+    "city": "Kupang",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "APT Pranoto Airport",
+    "iata": "AAP",
+    "city": "Samarinda",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "H. Asan Airport",
+    "iata": "SMQ",
+    "city": "Sampit",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Gusti Sjamsir Alam",
+    "iata": "KBU",
+    "city": "Kotabaru",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Domine Eduard Osok",
+    "iata": "SOQ",
+    "city": "Sorong",
+    "country": "Indonesia",
+    "timezone": "Asia/Jayapura"
+  },
+  {
+    "name": "Pattimura Airport",
+    "iata": "AMQ",
+    "city": "Ambon",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Rendani",
+    "iata": "MKW",
+    "city": "Manokwari",
+    "country": "Indonesia",
+    "timezone": "Asia/Jayapura"
+  },
+  {
+    "name": "Mozes Kilangin",
+    "iata": "TIM",
+    "city": "Timika",
+    "country": "Indonesia",
+    "timezone": "Asia/Jayapura"
+  },
+  {
+    "name": "Haluoleo",
+    "iata": "KDI",
+    "city": "Kendari",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Sultan Babullah",
+    "iata": "TTE",
+    "city": "Ternate",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Mutiara SIS Aljufri",
+    "iata": "PLW",
+    "city": "Palu",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Juwata International Airport",
+    "iata": "TRK",
+    "city": "Tarakan",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Mopah",
+    "iata": "MKQ",
+    "city": "Merauke",
+    "country": "Indonesia",
+    "timezone": "Asia/Jayapura"
+  },
+  {
+    "name": "Frans Kaisiepo",
+    "iata": "BIK",
+    "city": "Biak",
+    "country": "Indonesia",
+    "timezone": "Asia/Jayapura"
+  },
+  {
+    "name": "Betoambari",
+    "iata": "BUW",
+    "city": "Bau-Bau, Buton",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Jalaluddin",
+    "iata": "GTO",
+    "city": "Gorontalo",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Sultan Syarif Kasim II",
+    "iata": "PKU",
+    "city": "Pekanbaru",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Iskandar",
+    "iata": "PKN",
+    "city": "Pangkalan Bun",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Rahadi Usman",
+    "iata": "KTG",
+    "city": "Ketapang",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Radin Inten II Airport",
+    "iata": "TKG",
+    "city": "Bandar Lampung",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Wamena",
+    "iata": "WMX",
+    "city": "Wamena",
+    "country": "Indonesia",
+    "timezone": "Asia/Jayapura"
+  },
+  {
+    "name": "Komodo",
+    "iata": "LBJ",
+    "city": "Labuan Bajo",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "H Hasan Aroeboesman",
+    "iata": "ENE",
+    "city": "Ende",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Soa",
+    "iata": "BJW",
+    "city": "Bajawa",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Kalimarau",
+    "iata": "BEJ",
+    "city": "Berau",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Nabire",
+    "iata": "NBX",
+    "city": "Nabire",
+    "country": "Indonesia",
+    "timezone": "Asia/Jayapura"
+  },
+  {
+    "name": "Raja Haji Fisabilillah International Airport",
+    "iata": "TNJ",
+    "city": "Bintan / Tanjung Pinang",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Kuala Lumpur International Airport",
+    "iata": "KUL",
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "timezone": "Asia/Kuala_Lumpur"
+  },
+  {
+    "name": "Changi Intl",
+    "iata": "SIN",
+    "city": "Singapore",
+    "country": "Singapore",
+    "timezone": "Asia/Singapore"
+  },
+  {
+    "name": "Tambolaka Airport",
+    "iata": "TMC",
+    "city": "Waikabubak",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Binaka",
+    "iata": "GNS",
+    "city": "Nias/Gunung Sitoli",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Muhammad Salahuddin",
+    "iata": "BMU",
+    "city": "Bima",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  },
+  {
+    "name": "Penang Intl",
+    "iata": "PEN",
+    "city": "Penang",
+    "country": "Malaysia",
+    "timezone": "Asia/Kuala_Lumpur"
+  },
+  {
+    "name": "Fatmawati Soekarno",
+    "iata": "BKS",
+    "city": "Bengkulu",
+    "country": "Indonesia",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "name": "Frans Seda/Wai Oti",
+    "iata": "MOF",
+    "city": "Maumere",
+    "country": "Indonesia",
+    "timezone": "Asia/Makassar"
+  }
+]

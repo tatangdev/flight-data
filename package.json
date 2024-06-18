@@ -1,0 +1,22 @@
+{
+  "name": "flight-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tatangdev/flight-data.git",
+  "author": "Tatang Romadhona <romadhonatatang@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "dotenv": "^16.4.5",
+    "moment-timezone": "^0.5.45",
+    "node-cron": "^3.0.3",
+    "prisma": "^5.15.0"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "prisma": {
+    "seed": "node ./prisma/seeder/index.js"
+  }
+}
