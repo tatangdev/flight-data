@@ -4,6 +4,8 @@ This project demonstrates how to use seeder with Prisma JS and implement cron jo
 
 - Seeding the database with sample data
 - Setting up and running cron jobs for automated tasks
+## API Documentation
+For detailed information on the API endpoints and how to interact with them, please refer to the [API documentation](https://flight-ticketing.up.railway.app/api-docs). This documentation provides a comprehensive guide on how to use the flight ticketing API and integrate it into your application.
 
 ## Seeding the Database
 
@@ -121,3 +123,30 @@ npm run generate-flights
 ```
 
 By following these instructions, you will be able to seed your database with sample data and set up cron jobs to automate the generation of flight data.
+
+### Another cron example
+
+I have also added another example to test whether the cron job is running or not. Inside the `./src/app.js` file, I have added a default route as follows:
+
+```javascript
+// default route
+let name = 'World';
+app.get('/', (req, res) => {
+     res.json({
+          status: true,
+          message: 'Hello ' + name + '!',
+          data: null
+     });
+});
+```
+
+Then, I added a cron job to update the name every minute. So, if you access https://flight-ticketing.up.railway.app at different minutes, you will get a different message.
+
+```javascript
+// Test cron job every minute
+const random = require('random-name');
+
+cron.schedule('* * * * *', () => {
+    name = random.first();
+});
+```

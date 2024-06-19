@@ -26,7 +26,11 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 // default route
 let name = 'World';
 app.get('/', (req, res) => {
-    res.send('Hello ' + name + '!');
+    res.json({
+        status: true,
+        message: 'Hello ' + name + '!',
+        data: null
+    });
 });
 
 // Start server
