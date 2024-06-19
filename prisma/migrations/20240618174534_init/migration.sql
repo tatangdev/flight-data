@@ -5,6 +5,7 @@ CREATE TABLE "airports" (
     "iata" TEXT NOT NULL,
     "city" TEXT NOT NULL,
     "country" TEXT NOT NULL,
+    "timezone" TEXT,
 
     CONSTRAINT "airports_pkey" PRIMARY KEY ("id")
 );
@@ -24,10 +25,11 @@ CREATE TABLE "airlines" (
 CREATE TABLE "airplanes" (
     "id" SERIAL NOT NULL,
     "model" TEXT NOT NULL,
-    "seatLayout" TEXT,
-    "seatPitch" TEXT,
-    "seatType" TEXT,
-    "airlineId" INTEGER,
+    "code" TEXT NOT NULL,
+    "seat_layout" TEXT NOT NULL,
+    "seat_pitch" TEXT NOT NULL,
+    "seat_type" TEXT NOT NULL,
+    "airline_code" TEXT NOT NULL,
 
     CONSTRAINT "airplanes_pkey" PRIMARY KEY ("id")
 );
@@ -35,22 +37,24 @@ CREATE TABLE "airplanes" (
 -- CreateTable
 CREATE TABLE "flights" (
     "id" SERIAL NOT NULL,
-    "departure_airport" TEXT NOT NULL,
-    "arrival_airport" TEXT NOT NULL,
-    "departure_terminal_name" TEXT NOT NULL,
-    "arrival_terminal_name" TEXT NOT NULL,
-    "flight_number" TEXT NOT NULL,
-    "airline_code" TEXT NOT NULL,
-    "airplane_code" TEXT NOT NULL,
-    "free_baggage" INTEGER NOT NULL,
-    "cabin_baggage" INTEGER NOT NULL,
-    "departure_date" TEXT NOT NULL,
-    "arrival_date" TEXT NOT NULL,
-    "departure_time" INTEGER NOT NULL,
-    "arrival_time" INTEGER NOT NULL,
-    "duration_minute" INTEGER NOT NULL,
-    "class" TEXT NOT NULL,
-    "price" INTEGER NOT NULL,
+    "departure_airport" TEXT,
+    "arrival_airport" TEXT,
+    "departure_terminal_name" TEXT,
+    "arrival_terminal_name" TEXT,
+    "flight_number" TEXT,
+    "airline_code" TEXT,
+    "airplane_code" TEXT,
+    "free_baggage" INTEGER,
+    "cabin_baggage" INTEGER,
+    "departure_date" TEXT,
+    "arrival_date" TEXT,
+    "departure_time" TEXT,
+    "arrival_time" TEXT,
+    "departure_timestamp" INTEGER,
+    "arrival_timestamp" INTEGER,
+    "duration_minute" INTEGER,
+    "class" TEXT,
+    "price" INTEGER,
 
     CONSTRAINT "flights_pkey" PRIMARY KEY ("id")
 );

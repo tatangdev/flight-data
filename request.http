@@ -1,0 +1,4 @@
+GET http://localhost:3000/flights?departure=BTH&arrival=SUB&date=2024-06-28
+
+###
+GET http://localhost:3000/flights/785

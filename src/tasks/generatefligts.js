@@ -1,10 +1,9 @@
 require('dotenv').config();
 const { PrismaClient } = require('@prisma/client');
-// const prisma = new PrismaClient({ log: ['query'] });
 const prisma = new PrismaClient();
 const moment = require('moment-timezone');
 
-const rawFlights = require('./data/flights.json');
+const rawFlights = require('../data/flights.json');
 
 async function generateFlights(date) {
     // Convert date to timestamp in the 'Asia/Jakarta' timezone using moment-timezone
@@ -17,7 +16,7 @@ async function generateFlights(date) {
         }
     });
     if (isFlightsGenerated) {
-        console.log('Flights already generated');
+        console.log('Flights already generated for date:', date);
         return;
     }
 
@@ -83,12 +82,15 @@ async function generateFlights(date) {
     });
 
     await prisma.flight.createMany({ data: flights });
+    console.log('Flights generated for date:', date);
 }
+
+module.exports = generateFlights;
 
 // generateFlights('2024-06-24');
 // generateFlights('2024-06-25');
 // generateFlights('2024-06-26');
 // generateFlights('2024-06-27');
-generateFlights('2024-06-28');
+// generateFlights('2024-06-28');
 // generateFlights('2024-06-29');
 // generateFlights('2024-06-30');

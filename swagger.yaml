@@ -1,0 +1,359 @@
+openapi: "3.0.0"
+info:
+  title: Flight Data API
+  description: API for retrieving flight data
+  version: 1.0.0
+servers:
+  - url: https://learning-hinterland-api.up.railway.app/api
+  - url: http://localhost:3000
+security:
+  - bearerAuth: []
+paths:
+  /flights:
+    get:
+      parameters:
+      - in: query
+        name: departure
+        schema:
+          type: string
+        description: The departure airport code
+        example: CGK
+      - in: query
+        name: arrival
+        schema:
+          type: string
+        description: The arrival airport code
+        example: DPS
+      - in: query
+        name: date
+        schema:
+          type: string
+          format: date
+        description: The departure date
+        example: 2024-06-30
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: boolean
+                    description: Indicates if the request was successful
+                  message:
+                    type: string
+                    description: A message describing the response
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          description: The flight ID
+                        flight_number:
+                          type: string
+                          description: The flight number
+                        free_baggage:
+                          type: integer
+                          description: The amount of free baggage allowed
+                        cabin_baggage:
+                          type: integer
+                          description: The amount of cabin baggage allowed
+                        duration_minute:
+                          type: integer
+                          description: The duration of the flight in minutes
+                        class:
+                          type: string
+                          description: The class of the flight
+                        price:
+                          type: integer
+                          description: The price of the flight
+                        departure:
+                          type: object
+                          properties:
+                            airport:
+                              type: object
+                              properties:
+                                id:
+                                  type: integer
+                                  description: The ID of the departure airport
+                                name:
+                                  type: string
+                                  description: The name of the departure airport
+                                terminal_name:
+                                  type: string
+                                  description: The terminal name of the departure airport
+                                iata:
+                                  type: string
+                                  description: The IATA code of the departure airport
+                                city:
+                                  type: string
+                                  description: The city of the departure airport
+                                country:
+                                  type: string
+                                  description: The country of the departure airport
+                                timezone:
+                                  type: string
+                                  description: The timezone of the departure airport
+                            departure_date:
+                              type: string
+                              format: date
+                              description: The departure date
+                            departure_time:
+                              type: string
+                              format: time
+                              description: The departure time
+                            departure_timestamp:
+                              type: integer
+                              description: The departure timestamp
+                        arrival:
+                          type: object
+                          properties:
+                            airport:
+                              type: object
+                              properties:
+                                id:
+                                  type: integer
+                                  description: The ID of the arrival airport
+                                name:
+                                  type: string
+                                  description: The name of the arrival airport
+                                terminal_name:
+                                  type: string
+                                  description: The terminal name of the arrival airport
+                                iata:
+                                  type: string
+                                  description: The IATA code of the arrival airport
+                                city:
+                                  type: string
+                                  description: The city of the arrival airport
+                                country:
+                                  type: string
+                                  description: The country of the arrival airport
+                                timezone:
+                                  type: string
+                                  description: The timezone of the arrival airport
+                            arrival_date:
+                              type: string
+                              format: date
+                              description: The arrival date
+                            arrival_time:
+                              type: string
+                              format: time
+                              description: The arrival time
+                            arrival_timestamp:
+                              type: integer
+                              description: The arrival timestamp
+                        airline:
+                          type: object
+                          properties:
+                            id:
+                              type: integer
+                              description: The ID of the airline
+                            name:
+                              type: string
+                              description: The name of the airline
+                            short_name:
+                              type: string
+                              description: The short name of the airline
+                            iata:
+                              type: string
+                              description: The IATA code of the airline
+                            icon_url:
+                              type: string
+                              format: uri
+                              description: The URL of the airline icon
+                        airplane:
+                          type: object
+                          properties:
+                            id:
+                              type: integer
+                              description: The ID of the airplane
+                            model:
+                              type: string
+                              description: The model of the airplane
+                            code:
+                              type: string
+                              description: The code of the airplane
+                            seat_layout:
+                              type: string
+                              description: The seat layout of the airplane
+                            seat_pitch:
+                              type: string
+                              description: The seat pitch of the airplane
+                            seat_type:
+                              type: string
+                              description: The seat type of the airplane
+                            airline_code:
+                              type: string
+                              description: The airline code of the airplane
+  /flights/{id}:
+    get:
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: The ID of the flight
+        required: true
+        example: 785
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: boolean
+                    description: Indicates if the request was successful
+                  message:
+                    type: string
+                    description: A message describing the response
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                        description: The flight ID
+                      flight_number:
+                        type: string
+                        description: The flight number
+                      free_baggage:
+                        type: integer
+                        description: The amount of free baggage allowed
+                      cabin_baggage:
+                        type: integer
+                        description: The amount of cabin baggage allowed
+                      duration_minute:
+                        type: integer
+                        description: The duration of the flight in minutes
+                      class:
+                        type: string
+                        description: The class of the flight
+                      price:
+                        type: integer
+                        description: The price of the flight
+                      departure:
+                        type: object
+                        properties:
+                          airport:
+                            type: object
+                            properties:
+                              id:
+                                type: integer
+                                description: The ID of the departure airport
+                              name:
+                                type: string
+                                description: The name of the departure airport
+                              terminal_name:
+                                type: string
+                                description: The terminal name of the departure airport
+                              iata:
+                                type: string
+                                description: The IATA code of the departure airport
+                              city:
+                                type: string
+                                description: The city of the departure airport
+                              country:
+                                type: string
+                                description: The country of the departure airport
+                              timezone:
+                                type: string
+                                description: The timezone of the departure airport
+                          departure_date:
+                            type: string
+                            format: date
+                            description: The departure date
+                          departure_time:
+                            type: string
+                            format: time
+                            description: The departure time
+                          departure_timestamp:
+                            type: integer
+                            description: The departure timestamp
+                      arrival:
+                        type: object
+                        properties:
+                          airport:
+                            type: object
+                            properties:
+                              id:
+                                type: integer
+                                description: The ID of the arrival airport
+                              name:
+                                type: string
+                                description: The name of the arrival airport
+                              terminal_name:
+                                type: string
+                                description: The terminal name of the arrival airport
+                              iata:
+                                type: string
+                                description: The IATA code of the arrival airport
+                              city:
+                                type: string
+                                description: The city of the arrival airport
+                              country:
+                                type: string
+                                description: The country of the arrival airport
+                              timezone:
+                                type: string
+                                description: The timezone of the arrival airport
+                          arrival_date:
+                            type: string
+                            format: date
+                            description: The arrival date
+                          arrival_time:
+                            type: string
+                            format: time
+                            description: The arrival time
+                          arrival_timestamp:
+                            type: integer
+                            description: The arrival timestamp
+                      airline:
+                        type: object
+                        properties:
+                          id:
+                            type: integer
+                            description: The ID of the airline
+                          name:
+                            type: string
+                            description: The name of the airline
+                          short_name:
+                            type: string
+                            description: The short name of the airline
+                          iata:
+                            type: string
+                            description: The IATA code of the airline
+                          icon_url:
+                            type: string
+                            format: uri
+                            description: The URL of the airline icon
+                      airplane:
+                        type: object
+                        properties:
+                          id:
+                            type: integer
+                            description: The ID of the airplane
+                          model:
+                            type: string
+                            description: The model of the airplane
+                          code:
+                            type: string
+                            description: The code of the airplane
+                          seat_layout:
+                            type: string
+                            description: The seat layout of the airplane
+                          seat_pitch:
+                            type: string
+                            description: The seat pitch of the airplane
+                          seat_type:
+                            type: string
+                            description: The seat type of the airplane
+                          airline_code:
+                            type: string
+                            description: The airline code of the airplane
