@@ -4,10 +4,8 @@ info:
   description: API for retrieving flight data
   version: 1.0.0
 servers:
-  - url: https://learning-hinterland-api.up.railway.app/api
+  - url: https://flight-ticketing.up.railway.app
   - url: http://localhost:3000
-security:
-  - bearerAuth: []
 paths:
   /flights:
     get:
